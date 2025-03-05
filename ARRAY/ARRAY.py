@@ -12,4 +12,14 @@ print(LIST)
 
 SEARCH= int(input("What number do you want to search "))
 
-print(LIST.index(SEARCH))
+FOUND = (LIST.index(SEARCH))
+print(F"The number you search is {FOUND} in the list")
+
+MAX= (max(LIST))
+print(f"The biggest number is {MAX}")
+
+LOW= (min(LIST))
+print(f"The smallest number is {LOW}")
+
+ADD= (sum(LIST))
+print(f"The sum of the list is {ADD}")
